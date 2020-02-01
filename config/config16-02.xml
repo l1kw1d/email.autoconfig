@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<o:OfficeConfig xmlns:o="urn:schemas-microsoft-com:office:office">
+ <o:services>
+  <o:service o:name="AppAcquisitionLogging">
+   <o:url>https://[OMEX.BaseHost]/app/acquisitionlogging</o:url>
+  </o:service>
+  <o:service o:name="AddInEmailTemplate">
+   <o:url>https://[OMEX.BaseHost]/api/addins/emailtemplate</o:url>
+  </o:service>
+  <o:service o:name="AppDownload">
+   <o:url>https://[OMEX.BaseHost]/app/download</o:url>
+  </o:service>
+  <o:service o:name="AppInfoQuery15">
+   <o:url>https://[OMEX.BaseHost]/appinfo/query</o:url>
+  </o:service>
+  <o:service o:name="AppInstallInfoQuery15">
+   <o:url>https://[OMEX.BaseHost]/appinstall/unauthenticated</o:url>
+  </o:service>
+  <o:service o:name="AppQuery15">
+   <o:url>https://[OMEX.BaseHost]/app/query</o:url>
+  </o:service>
+  <o:service o:name="AppStateQuery15">
+   <o:url>https://[OMEX.BaseHost]/appstate/query</o:url>
+  </o:service>
+ </o:services>
+ <o:tokens>
+  <o:token o:name="OMEX.BaseHost">store.office.com</o:token>
+ </o:tokens>
+</o:OfficeConfig>

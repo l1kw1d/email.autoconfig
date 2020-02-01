@@ -1,0 +1,22 @@
+[
+  {
+    "instance": "Worldwide",
+    "latest": "2020012800"
+  },
+  {
+    "instance": "USGovDoD",
+    "latest": "2020012800"
+  },
+  {
+    "instance": "USGovGCCHigh",
+    "latest": "2020012800"
+  },
+  {
+    "instance": "China",
+    "latest": "2020010200"
+  },
+  {
+    "instance": "Germany",
+    "latest": "2019112700"
+  }
+]
